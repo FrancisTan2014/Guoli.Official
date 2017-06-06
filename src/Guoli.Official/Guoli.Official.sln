@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guoli.Offical.DataAccess", "Guoli.Offical.DataAccess\Guoli.Offical.DataAccess.csproj", "{C0C10287-8C66-4F14-A85F-F705A6FF6CF8}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guoli.Utilities", "Guoli.Ut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guoli.Offical.WebapiTest", "Guoli.Offical.WebapiTest\Guoli.Offical.WebapiTest.csproj", "{F8A749AE-5835-4CD5-8524-3614E6002D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guoli.Official.Models", "Guoli.Official.Models\Guoli.Official.Models.csproj", "{6180B3AA-3E6B-49C3-B247-D8EFD9745E09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guoli.Official.Models", "Guoli.Official.Models\Guoli.Official.Models.csproj", "{7B8A5B57-8B86-4E7E-9B51-C8CF40FFAD16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{F8A749AE-5835-4CD5-8524-3614E6002D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8A749AE-5835-4CD5-8524-3614E6002D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8A749AE-5835-4CD5-8524-3614E6002D96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6180B3AA-3E6B-49C3-B247-D8EFD9745E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6180B3AA-3E6B-49C3-B247-D8EFD9745E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6180B3AA-3E6B-49C3-B247-D8EFD9745E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6180B3AA-3E6B-49C3-B247-D8EFD9745E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8A5B57-8B86-4E7E-9B51-C8CF40FFAD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8A5B57-8B86-4E7E-9B51-C8CF40FFAD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8A5B57-8B86-4E7E-9B51-C8CF40FFAD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8A5B57-8B86-4E7E-9B51-C8CF40FFAD16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

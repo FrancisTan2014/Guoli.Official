@@ -20,12 +20,6 @@ namespace Guoli.Offical.WebapiTest
 
             var success = repos.Add(user);
 
-            //var ef = new OfficialEntities();
-            //var db = ef.Set<SystemUser>();
-            //db.Add(user);
-
-            //var success = ef.SaveChanges() > 0;
-
             success.Should().BeTrue();
             user.Id.Should().BeGreaterThan(0);
         }

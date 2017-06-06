@@ -80,7 +80,7 @@
       <Name>Guoli.Offical.DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\Guoli.Official.Models\Guoli.Official.Models.csproj">
-      <Project>{6180b3aa-3e6b-49c3-b247-d8efd9745e09}</Project>
+      <Project>{7b8a5b57-8b86-4e7e-9b51-c8cf40ffad16}</Project>
       <Name>Guoli.Official.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\Guoli.Utilities\Guoli.Utilities.csproj">
