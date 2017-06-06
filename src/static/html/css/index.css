@@ -1,0 +1,74 @@
+.post {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+
+.post-title {
+    position: absolute;
+    font-size: 20px;
+    z-index: 9;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.post-title a:hover, .post-title a:focus {
+    color: #222;
+}
+
+.post-title a {
+    color: #777;
+}
+
+.more-link {
+    color: #777;
+}
+
+.post-featured-image {
+    position: relative;
+    padding-top: 62.5%;
+    overflow: hidden;
+}
+
+.post-featured-image .thumbnail {
+    margin-bottom: 0;
+    padding: 12px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.service-item {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.service-item i {
+    font-size: 24px;
+}
+
+.service-item a {
+    color: #fff;
+}
+
+.service-item a:hover {
+    text-decoration: underline;
+}
+
+.contact-icon {
+    font-size: 10rem;
+}

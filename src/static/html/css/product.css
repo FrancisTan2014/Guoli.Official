@@ -1,0 +1,84 @@
+.post {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+
+.post-title {
+    position: absolute;
+    font-size: 20px;
+    z-index: 9;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.post-title a:hover, .post-title a:focus {
+    color: #222;
+}
+
+.post-title a {
+    color: #777;
+}
+
+.post-featured-image {
+    position: relative;
+    padding-top: 62.5%;
+    overflow: hidden;
+}
+
+.post-featured-image .thumbnail {
+    margin-bottom: 0;
+    padding: 12px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.pagination {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.pagination>a.newer-posts {
+    left: 10px;
+}
+
+.pagination>a {
+    border: 1px solid #39414a;
+    position: absolute;
+    top: -10px;
+    padding: 10px;
+    color: #39414a;
+    white-space: nowrap;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.pagination>a:hover {
+    border-color: #666;
+    color: #fff;
+    background: #4a4849;
+}
+
+.pagination .page-number {
+    color: #39414a;
+}
+
+.pagination>a.older-posts {
+    right: 10px;
+}

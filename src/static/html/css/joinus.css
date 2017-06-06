@@ -1,0 +1,116 @@
+.table ul {
+            margin-top: 0;
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+            .table ul li {
+                float: left;
+                width: 100%;
+            }
+
+        .table .thead ul > li {
+            font-weight: bold;
+            border-bottom: 2px solid #3bbe7a;
+            width: 100%;
+        }
+
+            .table .thead ul > li > div > span {
+                padding: 20px 25px;
+                display: inline-block;
+                color: #aaa;
+            }
+
+        .table .tbody ul > li .link {
+            font-size: 16px;
+            border-top: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .table .tbody ul > li.open .link {
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f0f0f0;
+        }
+
+        .tbody ul#accordion > li {
+            border-bottom: 1px solid rgba(170, 170, 170,.3);
+            cursor: pointer;
+        }
+
+        .table .tbody ul > li > div > span {
+            padding: 20px 25px;
+            display: inline-block;
+            color: #666;
+        }
+
+        .table .tbody ul > li .link:hover {
+            background-color: #f0f0f0;
+        }
+
+        .submenu {
+            padding-left: 50px;
+            background-color: #fff;
+            padding-bottom: 50px;
+            border-left: 1px solid #f0f0f0;
+            border-right: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+            .submenu .title {
+                padding-top: 40px;
+                font-weight: bold;
+            }
+
+        .badge {
+            background-color: rgba(59, 190, 122,.2);
+            border: 1px solid #3bbe7a;
+            color: #3bbe7a;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .glyphicon-menu-down {
+            font-size: 1px;
+            margin-left: 10px;
+            color: #999;
+        }
+
+      .glyphicon-menu-down {
+             -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            transition: all .25s ease-out;
+        }
+
+        .btn-group-justified > .btn-group {
+            padding: 20px 25px;
+            color: #aaa;
+        }
+
+        #accordion .btn-group-justified > .btn-group {
+            color: #666;
+            font-size: 16px;
+        }
+
+        #accordion .open .glyphicon-menu-down {
+            transform: rotate(180deg);
+        }
+        
+        #accordion li.hover .glyphicon-menu-down {
+            display: inline-block !important;
+        }
+
+        .global-btn {
+            background-color: #3bbe7a;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+        }
+
+        .global-btn:hover, .global-btn.focus{
+            color:#fff;
+        }
