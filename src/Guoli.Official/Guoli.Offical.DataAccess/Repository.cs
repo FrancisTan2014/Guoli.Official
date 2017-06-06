@@ -25,8 +25,8 @@ namespace Guoli.Offical.DataAccess
                 if (context == null)
                 {
                     context = new OfficialEntities();
-                    // 创建线程内唯一的DbContext
                     //CallContext.LogicalSetData(name, context);
+                    // 创建线程内唯一的DbContext
                     CallContext.SetData(name, context);
                 }
 
